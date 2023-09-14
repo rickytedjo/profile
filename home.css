@@ -1,0 +1,72 @@
+.card-frame{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.card{
+    width: auto;
+    max-width: 30%;
+    display: flex;
+    background-color: #e8ebec;
+    gap: 0;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.stripe{
+    background-color: #0069a6;
+    padding-top: 0;
+    width: 100%;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.bg-logo{
+    position: absolute;
+    z-index: 0;
+    opacity: 0.3;
+    width: 30%;
+    right: 20%;
+    height: auto;
+}
+.photo-frame{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 60%;
+}
+.photo{
+    max-width: inherit;
+    height: auto;
+    width: 50%;
+}
+.summary{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.summary p,a{
+    font-size: larger;
+    font-weight: bold;
+}
+.btn-link{
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    height: 100%;
+    justify-content: flex-end;
+}
+.btn-link button{
+    background-color: #0069a6;
+    border-radius: 50%;
+    width: 120%;
+    height: 10%;
+}
